@@ -1,4 +1,4 @@
-spring2014-theme
+winter2014-theme
 ================
 
-ITP Spring 2014 Show Wordpress theme
+ITP Winter 2014 Show Wordpress theme
