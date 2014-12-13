@@ -25,7 +25,7 @@ get_header(); ?>
 						'orderby' => 'title',
 						'order' => 'ASC'
 					));
-					echo "<table>\n";
+					echo "<div class="entry-content"><table >\n";
 					echo "<thead><tr><th>Project</th><th>Student(s)</th><th>Instructor(s)</th><th>Class</th></thead>\n";
 					echo "<tbody>\n";
 					foreach ( (array) $category_posts as $order => $post ) :
@@ -33,7 +33,7 @@ get_header(); ?>
 						get_template_part( 'content', 'listview');
 					endforeach;
 					echo "</tbody>\n";
-					echo "</table>\n";
+					echo "</table></div>\n";
 					wp_reset_postdata();
 
 				else :
