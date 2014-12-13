@@ -16,7 +16,7 @@ get_header(); ?>
 
 			<?php if ( have_posts() ) : ?>
         <header class="archive-header">
-          <h1 class="entry-title"><?php printf( __( 'Category: %s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
+          <h1 class="entry-title"><?php printf( __( '%s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
 			  </header><!-- .archive-header -->
 			<?php
 					// Start the Loop.
