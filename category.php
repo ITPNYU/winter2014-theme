@@ -25,7 +25,7 @@ get_header(); ?>
 						'orderby' => 'title',
 						'order' => 'ASC'
 					));
-					echo "<div class="entry-content"><table >\n";
+					echo '<div class="entry-content"><table >\n';
 					echo "<thead><tr><th>Project</th><th>Student(s)</th><th>Instructor(s)</th><th>Class</th></thead>\n";
 					echo "<tbody>\n";
 					foreach ( (array) $category_posts as $order => $post ) :
