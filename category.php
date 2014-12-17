@@ -28,6 +28,7 @@ get_header(); ?>
 						'order' => 'ASC'
 					));
 					echo '<div class="entry-content"><table>' . "\n";
+					echo '<p>This show is dedicated to the memory of ITP student <a href="http://justinr.me" target="_blank">Justin Restauri</a>.</p>' . "\n";
 					echo "<thead><tr><th>Project</th><th>Student(s)</th><th>Instructor(s)</th><th>Class</th></thead>\n";
 					echo "<tbody>\n";
 					foreach ( (array) $category_posts as $order => $post ) :
