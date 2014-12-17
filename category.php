@@ -15,9 +15,9 @@ get_header(); ?>
 		<div id="content" class="site-content" role="main">
 
 			<?php if ( have_posts() ) : ?>
-        <header class="archive-header">
+        <header class="entry-header">
           <h1 class="entry-title"><?php printf( __( '%s', 'twentyfourteen' ), single_cat_title( '', false ) ); ?></h1>
-			  </header><!-- .archive-header -->
+			  </header><!-- .entry-header -->
 			<?php
 					// Start the Loop.
 					$cat_id = get_queried_object()->term_id;
